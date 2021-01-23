@@ -9,7 +9,7 @@
     "lint": "./node_modules/eslint/bin/eslint.js .",
     "lint:fix": "./node_modules/eslint/bin/eslint.js . --fix",
     "download-today-status": "node src/scripts/download-covid-vaccine-today-status.js",
-    "aggregate": "node src/scripts/aggregate-json-as-time-series.js"
+    "aggregate": "node src/scripts/aggregate.js"
   },
   "dependencies": {
     "download": "8.0.0",
