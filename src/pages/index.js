@@ -219,8 +219,8 @@ export default function Home ({ data, info }) {
 }
 
 export async function getStaticProps () {
-  const data = require('../public/data/latest.json')
-  const info = require('../public/data/info.json')
+  const data = require('../../public/data/latest.json')
+  const info = require('../../public/data/info.json')
 
   return {
     props: {
